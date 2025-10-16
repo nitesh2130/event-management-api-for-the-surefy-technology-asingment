@@ -1,4 +1,4 @@
-export const createEventModel = async (sequelize) => {
+export const eventModel = async (sequelize) => {
   const Event = sequelize.define("events", {
     title: {
       type: DataTypes.STRING,
