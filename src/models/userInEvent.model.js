@@ -1,5 +1,5 @@
-export const createUserInEventModel = async (sequelize) => {
-  const User = sequelize.define("users", {
+export const userInEventModel = async (sequelize) => {
+  const UserInEvent = sequelize.define("userInEvents", {
     eventId: {
       type: DataTypes.INTEGER,
       allowNull: false,
